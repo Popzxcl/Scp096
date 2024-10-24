@@ -1,0 +1,63 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/TnBz9vvr"))()
+local Window = Library.CreateLib("Popzxcl HUB", "DarkTheme")
+
+local Tab = Window:NewTab("หน้าแรก")
+local Section = Tab:NewSection("วาป")
+
+Section:NewButton("หิน1", "1", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1015.8140258789062, 229.9855499267578, 1214.0296630859375)
+end)
+Section:NewButton("หิน2", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1027.7528076171875, 223.12301635742188, 1229.4749755859375)
+end)
+Section:NewButton("หิน3", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1036.10205078125, 226.3074188232422, 1213.629150390625)
+end)
+Section:NewButton("หิน4", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1006.8464965820312, 163.97525024414062, 1345.2489013671875)
+end)
+Section:NewButton("หิน5", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-923.837158203125, 154.48861694335938, 1258.7872314453125)
+end)
+Section:NewButton("หิน6", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-765.5360717773438, 126.39383697509766, 1075.71435546875)
+end)
+Section:NewButton("หิน7", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-728.285400390625, 117.06555938720703, 1052.373291015625)
+end)
+Section:NewButton("หิน8", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-676.40625, 116.79949951171875, 948.1492919921875)
+end)
+Section:NewButton("หิน9", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-674.2374877929688, 109.57342529296875, 906.9620971679688)
+end)
+Section:NewButton("หิน10", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-657.7908935546875, 114.13114166259766, 913.8595581054688)
+end)
+
+local VIP = Instance.new("ScreenGui")
+local KK = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+
+
+VIP.Name = "VIP"
+VIP.Parent = game.CoreGui
+VIP.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+
+KK.Name = "KK"
+KK.Parent = VIP
+KK.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KK.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KK.BorderSizePixel = 0
+KK.Position = UDim2.new(0.0857338831, 0, 0.0989974961, 0)
+KK.Size = UDim2.new(0, 50, 0, 50)
+KK.Font = Enum.Font.SourceSans
+KK.Text = "UI"
+KK.TextColor3 = Color3.fromRGB(0, 0, 0)
+KK.TextSize = 14.000
+KK.Draggable = true
+KK.MouseButton1Click:Connect(function()
+game.CoreGui:FindFirstChild("1").Enabled = not game.CoreGui:FindFirstChild("1").Enabled
+end )
+UICorner.Parent = KK
